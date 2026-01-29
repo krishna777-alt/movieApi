@@ -1,4 +1,3 @@
-import joi from "joi";
 import Movie from "../Models/movieModel.js";
 import AppError from "../utils/AppError.js";
 
@@ -50,14 +49,12 @@ export const getMovies = async function (req, res) {
   if (!movies.length) {
     throw new AppError("No movies found!", 404);
   }
-  res
-    .status(200)
-    .json({
-      status: 200,
-      total,
-      page: Number(page),
-      limit: Number(limit),
-      results: movies.length,
-      data: movies,
-    });
+  res.status(200).json({
+    status: 200,
+    total,
+    page: Number(page),
+    limit: Number(limit),
+    results: movies.length,
+    data: movies,
+  });
 };
