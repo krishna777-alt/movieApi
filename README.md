@@ -1,3 +1,11 @@
+⚠️ Project Status: Under Active Development
+
+This project is currently under active development.
+Some features may be incomplete, experimental, or subject to change.
+Bugs or unexpected behavior may occur as new updates are being implemented.
+The codebase may change frequently as improvements and new features are added.
+Use this project for learning and testing purposes at this stage.
+
 🎬 Movie Trailer API
 A RESTful API built with Node.js, Express, and MongoDB that allows users to fetch, add, update, and manage movie trailers.
 This project was created to practice backend development, API design, and real-world Node.js concepts.
